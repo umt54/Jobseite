@@ -1,0 +1,345 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body{
+  background-color: rgb(180, 208, 232);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #203A5E;
+  padding-bottom: -25px;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  left: 54%;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+@media only screen and (min-width: 1080px) { 
+  .dropdown-content {
+    left: 87%;
+  }
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 13px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+.navbar {
+  position: relative;
+  display: flex;
+
+}
+
+.logo{
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
+
+a {
+  display: inline-block;
+  width: 125px;
+  height: auto;
+}
+
+
+
+.dropdown{
+  display: flex;
+  margin-right: 120px;
+  margin-top: 25px;
+  margin-left: 10rem;
+}
+
+
+@media only screen and (min-width: 1080px) { 
+  .dropdown {
+  margin-left: 75rem; 
+  }
+}
+
+
+.bild1{
+  width: 325px;
+  height: 180px;
+  display: flex;
+  margin-top: 5rem;
+  margin-left: auto;
+  margin-right: 30rem;
+  
+}
+
+@media only screen and (min-width: 1080px) { 
+  .bild1 {
+    height: 350px;
+    margin-right: 44rem;
+  }
+}
+
+
+
+.searchbar {
+  display: flex;
+  margin-top: 4rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 120px;
+
+
+}
+
+@media only screen and (min-width: 1080px) { 
+  .searchbar {
+   margin-right: -8rem;
+  }
+}
+ 
+
+.suche {
+  display: flex;
+  border: 2px solid;
+  border-radius: 5px;
+  height: 45px;
+}
+
+.searchbar input {
+  height: 35px;
+  width: 300px;
+}
+
+
+@media only screen and (min-width: 1080px) { 
+  .searchbar input {
+    
+   width: 600px;
+  }
+}
+
+.aktuell{
+  margin-left: 2.5rem;
+}
+
+.aboutumt{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 5rem;
+}
+
+.bildumt{
+  position: absolute;
+  margin-left: 14rem;
+  margin-top: 2rem;
+
+}
+
+
+.aboutemir{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 20rem;
+}
+
+
+.bildemir{
+  position: absolute;
+  margin-left: 14rem;
+  margin-top: 18rem;
+}
+
+p {
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+h4{
+  position: relative;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom: 2px solid rgb(114, 182, 230);
+}
+
+h5{
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-ser
+}
+
+.box1{
+  width: 300px;
+  height: 73px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 35px;
+  border: 3px solid rgb(114, 182, 230); 
+  border-radius: 5px;
+}
+
+.btn1{
+  background-color:  rgb(114, 182, 230);
+  width: 300px;
+  text-align: center;
+  border: hidden;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+a.btn1 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+.logo1 {
+  position: absolute;
+  margin-left: 35px;
+  margin-bottom: 80px;
+}
+
+.box2{
+  width: 300px;
+  height: 73px;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin-top: 230px;
+  margin-left: 35px;
+  border: 3px solid rgb(114, 182, 230); 
+  border-radius: 5px;
+}
+
+@media only screen and (min-width: 1080px) { 
+  .box2 {
+   margin-top: 50px;
+   margin-left: 25rem;
+  }
+}
+
+.btn2{
+  background-color:  rgb(114, 182, 230);
+  width: 300px;
+  text-align: center;
+  border: hidden;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a.btn2 {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+
+  text-decoration: none;
+  color: initial;
+}
+
+.logo2{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 35px;
+}
+
+@media only screen and (min-width: 1080px) { 
+  .logo2 {
+   margin-left: 25rem;
+   margin-top: 25px;
+  }
+}
+
+.lebenslauf{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+.tipps{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+@media only screen and (min-width: 1080px) { 
+  .tipps {
+   padding: auto;
+   padding-right: 550px;
+  }
+}
+
+.bewerbung{
+  padding-top: 170px;
+  margin-left: 10px;
+}
+
+.vorlage{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+@media only screen and (min-width: 1080px) { 
+  .vorlage {
+   padding: auto;
+   padding-right: 550px;
+  }
+}
